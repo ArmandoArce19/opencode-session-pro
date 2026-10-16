@@ -3,6 +3,10 @@
 Give your [OpenCode](https://opencode.ai) agent **memory of past sessions**: list
 them, read them, full-text search across them, and inspect their metadata.
 
+> **Not affiliated with the OpenCode team.** This is an independent community
+> plugin; `opencode-session-pro` is not built by, endorsed by, or affiliated
+> with the OpenCode team.
+
 OpenCode V2's plugin context does not expose session listing
 (`ctx.session` has `get`, `context`, `create`, … but no `list`), so an agent
 cannot normally look back at previous conversations. This plugin fills that gap.
