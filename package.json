@@ -1,0 +1,57 @@
+{
+  "name": "opencode-session-tool",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that gives the agent memory of past sessions: list, read, full-text search and inspect previous conversations.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "session",
+    "sessions",
+    "session-manager",
+    "memory",
+    "recall",
+    "agent",
+    "ai"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode/plugin": {
+      "optional": true
+    }
+  },
+  "author": "YOUR_NAME",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USER/opencode-session-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USER/opencode-session-tool/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USER/opencode-session-tool#readme"
+}
