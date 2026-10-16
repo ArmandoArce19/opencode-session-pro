@@ -1,5 +1,5 @@
 {
-  "name": "opencode-session-tool",
+  "name": "opencode-session-pro",
   "version": "0.1.0",
   "description": "OpenCode plugin that gives the agent memory of past sessions: list, read, full-text search and inspect previous conversations.",
   "type": "module",
@@ -48,10 +48,10 @@
   "author": "YOUR_NAME",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USER/opencode-session-tool.git"
+    "url": "git+https://github.com/YOUR_GITHUB_USER/opencode-session-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USER/opencode-session-tool/issues"
+    "url": "https://github.com/YOUR_GITHUB_USER/opencode-session-pro/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USER/opencode-session-tool#readme"
+  "homepage": "https://github.com/YOUR_GITHUB_USER/opencode-session-pro#readme"
 }

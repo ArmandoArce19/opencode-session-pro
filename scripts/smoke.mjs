@@ -19,7 +19,7 @@ const ctx = {
   },
 };
 
-if (plugin.id !== "opencode-session-tool") {
+if (plugin.id !== "opencode-session-pro") {
   console.error(`FAIL: unexpected plugin id "${plugin.id}"`);
   process.exit(1);
 }

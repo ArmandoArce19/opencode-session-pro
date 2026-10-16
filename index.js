@@ -1,4 +1,4 @@
-// opencode-session-tool
+// opencode-session-pro
 //
 // Give an OpenCode agent memory of past sessions: list, read, full-text search
 // and inspect previous conversations.
@@ -436,7 +436,7 @@ const sessionInput = {
 };
 
 export default {
-  id: "opencode-session-tool",
+  id: "opencode-session-pro",
   async setup(ctx) {
     const location = ctx.location;
 
@@ -535,7 +535,7 @@ export default {
     });
 
     try {
-      console.log(`[opencode-session-tool] ready - API ${readService().url}`);
+      console.log(`[opencode-session-pro] ready - API ${readService().url}`);
     } catch {
       // The service registration file is read lazily by each tool call, so a
       // missing file here must not prevent the plugin from loading.

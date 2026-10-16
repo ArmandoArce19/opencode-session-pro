@@ -1,4 +1,4 @@
-# opencode-session-tool
+# opencode-session-pro
 
 Give your [OpenCode](https://opencode.ai) agent **memory of past sessions**: list
 them, read them, full-text search across them, and inspect their metadata.
@@ -33,11 +33,11 @@ Add the package to the `plugins` array in your global OpenCode config
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["opencode-session-tool"]
+  "plugins": ["opencode-session-pro"]
 }
 ```
 
-Pin a version with `"opencode-session-tool@0.1.0"` if you prefer.
+Pin a version with `"opencode-session-pro@0.1.0"` if you prefer.
 
 Restart the background service afterwards:
 
@@ -51,7 +51,7 @@ Point `plugins` at the directory instead of the package name:
 
 ```jsonc
 {
-  "plugins": ["./path/to/opencode-session-tool"]
+  "plugins": ["./path/to/opencode-session-pro"]
 }
 ```
 

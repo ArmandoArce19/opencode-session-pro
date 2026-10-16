@@ -1,5 +1,5 @@
 /**
- * Type declarations for opencode-session-tool.
+ * Type declarations for opencode-session-pro.
  *
  * The plugin is plain ESM JavaScript with no runtime dependencies, so these
  * types are intentionally loose: the authoritative types for plugin authors are
